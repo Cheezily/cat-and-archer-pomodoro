@@ -1,0 +1,68 @@
+<!doctype html>
+<html>
+<head>
+  <link href='https://fonts.googleapis.com/css?family=Josefin+Sans' rel='stylesheet' type='text/css'>
+  <link rel='stylesheet' href='css/style.css'>
+  <script src='https://code.jquery.com/jquery-1.12.3.min.js'></script>
+</head>
+<body>
+<div class='wrapper'>
+      <div class='tree'>
+
+      <div class='optionWrapper'>
+        <div class='enterWorkTime option'>
+          <p>Work Timer</p>
+          <p id='workPlus'>+</p>
+          <span id='displayWorkTime'></span>
+          <p id='workMinus'>-</p>
+        </div>
+
+        <div class='enterBreakTime option'>
+          <p>Break Timer</p>
+          <p id='breakPlus'>+</p>
+          <span id='displayBreakTime'></span>
+          <p id='breakMinus'>-</p>
+        </div>
+
+        <div class='buttonWrapper option'>
+          <button id='repeat'>Repeat: On</button>
+          <button id='startStop'>Start/Stop</button>
+          <button id='reset'>Reset</button>
+          <button id='demo'>30sec Demo</button>
+        </div>
+
+      </div>
+
+        <img class='bell' id='bell1' src='images/bell.png'>
+        <img class='bell' id='bell2' src='images/bell1.png'>
+        <img class='bell' id='bell3' src='images/bell2.png'>
+        <img id='rightCat' src='images/blackSittingCat.png'>
+
+        <img class='arrowWalkingCat' id='arrowWalkCat' src='images/catEmptyWalkGif.gif'>
+
+        <img id='groundArrow' src='images/arrow.png'>
+
+        <img id='archer' src='images/blackArcher.png'>
+        <img id='arrow' src='images/arrow.png'>
+
+        <div class='heading' id='workHeading'>Work Time:</div>
+        <div class='timeDisplay' id='workTime'></div>
+
+        <div class='heading' id='breakHeading'>Break Time:</div>
+        <div class='timeDisplay' id='breakTime'></div>
+
+        <audio id="meow">
+          <source src='sounds/meow.mp3'></source>
+        </audio>
+        <audio id='bell'>
+          <source src='sounds/bell.mp3'></source>
+        </audio>
+
+      </div>
+
+	</div>
+
+  <script src='js/main.js'></script>
+
+</body>
+</html>
