@@ -1,4 +1,3 @@
 ## Cat and Archer Pomodoro Timer
 
-This was one of the early projects for freeCodeCamp.  This is just
-a bit of a different approach.
+Just a bit of a different approach to one of the early projects for freeCodeCamp.
